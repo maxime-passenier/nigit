@@ -1,0 +1,19 @@
+{
+  "name": "nigit",
+  "version": "0.0.1",
+  "description": "wha-ever",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "nigit": "lib/nigit.js"
+  },
+  "author": "Maxime Passenier",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "q": "^1.4.1"
+  }
+}
